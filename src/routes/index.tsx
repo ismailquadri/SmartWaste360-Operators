@@ -54,14 +54,14 @@ export type AuditEntry = { key: number; property: string; reason: string; crew: 
 type StreetScenario = { id: string; address: string; street: string; type: PropertyType; service: string; distance: number; outcome: ScanOutcome };
 
 const scenarios = [
-  { id: "LAW-IKJ-0148", address: "18 Akinremi Street", street: "Akinremi Street", type: "Home", service: "1 household bin", distance: 12, outcome: "valid" },
-  { id: "LAW-IKJ-0149", address: "Akinremi Court, Block B", street: "Akinremi Street", type: "Flats", service: "6 shared bins", distance: 28, outcome: "arrears" },
-  { id: "LAW-IKJ-0150", address: "Musa Mini Mart", street: "Akinremi Street", type: "Shop", service: "2 commercial bins", distance: 41, outcome: "already-collected" },
-  { id: "LAW-IKJ-0221", address: "7 Olowu Close", street: "Olowu Close", type: "Home", service: "1 household bin", distance: 18, outcome: "wrong-zone" },
-  { id: "LAW-IKJ-0222", address: "Civic Primary School", street: "Olowu Close", type: "School", service: "4 large bins", distance: 35, outcome: "damaged-tag" },
-  { id: "LAW-IKJ-0223", address: "Unity House Offices", street: "Olowu Close", type: "Office", service: "3 commercial bins", distance: 52, outcome: "valid" },
-  { id: "LAW-IKJ-0310", address: "44 Kudirat Avenue", street: "Kudirat Avenue", type: "Home", service: "1 household bin", distance: 15, outcome: "valid" },
-  { id: "LAW-IKJ-0311", address: "Kudirat Plaza", street: "Kudirat Avenue", type: "Shop", service: "5 commercial bins", distance: 33, outcome: "arrears" },
+  { id: "TAG-HH-ALI-0148", address: "Gowon Estate, Block 41", street: "41 Road, Mosan-Okunola", type: "Flats", service: "6 shared compound bins", distance: 12, outcome: "valid" },
+  { id: "TAG-MKT-ALI-0149", address: "Ikotun Market Central Skip", street: "Ikotun-Idimu Road", type: "Shop", service: "Central Dino Skip (Commercial)", distance: 28, outcome: "arrears" },
+  { id: "TAG-HH-ORA-0150", address: "Papa Ashafa II (Interim Zone)", street: "Orile Agege Corridor", type: "Home", service: "2 household bins (Guestimate Revoked)", distance: 41, outcome: "already-collected" },
+  { id: "TAG-HH-ALI-0221", address: "7 Akowonjo Roundabout", street: "Akowonjo Road", type: "Home", service: "1 household bin (Ayobo Boundary)", distance: 18, outcome: "wrong-zone" },
+  { id: "TAG-HH-ALI-0222", address: "Egbe/Idimu Micro-Collector Hub", street: "Idimu Inner Lane", type: "School", service: "Tricycle-to-Compactor Handoff", distance: 35, outcome: "damaged-tag" },
+  { id: "TCK-SOL-0223", address: "Solous II Scale Intake Bay 2", street: "LASU-Igando Expressway", type: "Office", service: "Weighbridge Net Tip-Off (SLA < 45m)", distance: 52, outcome: "valid" },
+  { id: "TAG-HH-ALI-0310", address: "14 Agbado Crossing", street: "Agbado/Oke-Odo", type: "Home", service: "1 household bin", distance: 15, outcome: "valid" },
+  { id: "TAG-HH-ALI-0311", address: "Ile-Epo Market Vegetable Hub", street: "Lagos-Abeokuta Expressway", type: "Shop", service: "Organic Waste to FAC-ORG-ALI", distance: 33, outcome: "arrears" },
 ] satisfies readonly [StreetScenario, ...StreetScenario[]];
 
 function getScenario(index: number): StreetScenario {
