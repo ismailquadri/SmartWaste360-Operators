@@ -35,7 +35,6 @@ Complete technical specifications, field research, street political economy, and
 
 - **[Product Requirements Document (PRD)](docs/PRD.md)**: Zero-touch barcode scanning, supervisor override, biohazard reject, offline sync queue, and Solous II turnaround.
 - **[UX & Field Research](docs/research.md)**: Edge connectivity analysis (2G/3G fallbacks), driver fatigue, and field ergonomics.
-- **[Stakeholder Critiques & Concerns](docs/stakeholder-critiques-and-concerns.md)**: 35+ questions across 10 key Lagos stakeholders.
-- **[Stakeholder Defense Master Playbook](docs/stakeholder-defense-answers.md)**: Executive defense scripts answering all critiques.
+- **[Stakeholder Critiques & Defense Playbook](docs/stakeholder-critiques-and-defense.md)**: Unified Q&A pairing every critical objection with its verified technical mitigation.
 - **[Political Economy of the Streets](docs/political-economy-of-the-streets.md)**: Agbero toll-points, Wole-Wole inspectors, Baba Oja cartels, and diesel volatility.
 - **[Cross-System Ecosystem Specs](docs/ecosystem-specs/)**: PRDs and data contracts for Workspace, Partner, and Resident apps.

@@ -12,11 +12,10 @@ This folder contains the complete, tailored engineering specifications for the *
 2. **[Field UX & Environmental Research (research.md)](research.md)**  
    *Field findings on Lagos street conditions, 2G/EDGE network dead zones, sunlight glare, wet-finger touchscreen ergonomics, and compound gate dynamics.*
 
-3. **[Field Operations Critiques & Edge Cases (stakeholder-critiques-and-concerns.md)](stakeholder-critiques-and-concerns.md)**  
+3. **[Stakeholder Critiques & Defense Playbook (stakeholder-critiques-and-defense.md)](stakeholder-critiques-and-defense.md)**
+   *Unified Q&A dossier directly pairing every critical stakeholder objection with its engineering mitigation and statutory defense.*
    *Specific technical challenges: damaged/oily barcodes, hostile tenant confrontations, 6-hour network blackouts, ghost pickups, and mechanic tampering.*
 
-4. **[Field Operations Master Defense (stakeholder-defense-answers.md)](stakeholder-defense-answers.md)**  
-   *Engineering mitigations: dual-carrier RFID/laser tags, offline append-only cryptographic ledgers, dual-factor hydraulic PTO verification, and weighbridge handshakes.*
 
 5. **[Street Political Economy (political-economy-of-the-streets.md)](political-economy-of-the-streets.md)**  
    *Field dynamics: Agbero parking levies, informal cart pusher competition, dumpsite queue bottlenecks, and scavenger syndicates.*
